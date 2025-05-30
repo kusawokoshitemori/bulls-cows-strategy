@@ -1,8 +1,11 @@
-<script setup lang="ts"></script>
+import vue from '@vitejs/plugin-vue';
+<script setup lang="ts">
+import Game from "./components/game/Game.vue";
+</script>
 
 <template>
   <div>
-    <h1>Hello World</h1>
+    <Game />
   </div>
 </template>
 
