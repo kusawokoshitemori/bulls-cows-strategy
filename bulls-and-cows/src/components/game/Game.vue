@@ -1,9 +1,10 @@
 <template>
   <div class="game-container">Game</div>
+  <NumberInput />
 </template>
 
-<script setup>
-// 今回は特にロジックなし
+<script setup lang="ts">
+import NumberInput from "./NumberInput.vue";
 </script>
 
 <style scoped>
